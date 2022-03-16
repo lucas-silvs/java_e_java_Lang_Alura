@@ -18,8 +18,7 @@ public class TesteContas {
 		
 		
 		
-		ContaCorrente outra = null;
-		outra.deposita(200.0); 
+	
 					
 		ContaCorrente cc = new ContaCorrente(111, 111);
 		cc.deposita(100.0);

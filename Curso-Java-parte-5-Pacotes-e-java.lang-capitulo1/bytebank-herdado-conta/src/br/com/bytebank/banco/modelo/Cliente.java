@@ -1,5 +1,13 @@
 package br.com.bytebank.banco.modelo;
 
+/**
+ * 
+ * @author Lucas Santos
+ * o '/**' é utilizado para documentar o código, descrevendo a classe
+ * @version 1.0.0
+ *
+ */
+
 public class Cliente {
 
     private String nome;

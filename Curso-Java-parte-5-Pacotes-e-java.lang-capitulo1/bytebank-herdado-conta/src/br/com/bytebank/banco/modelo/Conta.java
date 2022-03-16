@@ -1,5 +1,12 @@
 package br.com.bytebank.banco.modelo;
 
+/**
+ * 
+ * @author Lucas Santos
+ * @version 1.0.0
+ * teste de descrição da classe
+ *
+ */
 public abstract class Conta {
 
     protected double saldo;
@@ -17,7 +24,14 @@ public abstract class Conta {
         //System.out.println("Estou criando uma conta " + this.numero);
     }
 
+    
     public abstract void deposita(double valor);
+    /**
+     * O valor não pode ser nulo
+     * @param valor
+     * @throws SaldoInsuficienteException
+     * 
+     */
 
     public void saca(double valor) throws SaldoInsuficienteException{
     	
